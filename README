@@ -1,0 +1,16 @@
+This repository is a tryout to document my learning of R and use of git/github. Bear with me if I do stupid things - just trying to learn.
+
+As a veterinarian with no previous experience in writing code, R seemed a bit 'too much' when I started. As things went along I found more and more areas where it was useful to me.  This repo is created for my own documentation, to  keep small tips and things which took me quite a bit of time to find solutions to and that made things work for me. It may not be the most elegant or correct way, I´m sure, but it worked.   
+
+What helped me starting learning R and git is:
+* Learn the basics. Anything and everything can be googled, but without the vocabulary that is a taxing task.
+* Keep track of what you do. A journal, OneNote or a text document - anything to make you be able to retrace your learning steps.  For R-projects - use Git.
+* Collect useful resources. Nothing is as frustrating as knowing you watched a very good tutorial on youtube but not being able to find it again. Some sources I found useful:
+  * Youtube. 
+  * Documentatoin for R-packages - the "help" is very useful.
+  * R-bloggers. 
+  * The website "Stack Overflow".
+* Immerse yourself, but work at few elements at a time in the beginning. Find the tools you like and learn those. Trying to 'learn it all' is impossible, but reading and watching a lot of tutorials sure helps with catching on with the concepts. Personally I picked a suite of packages which suits my needs and show a similar syntax/organization to help me learn. Wickhams "tidyverse" with the addition of "knitr" and the use of markdown seems to cover my immediate needs.
+* Try to adopt a decent style for writing code. Will elp when collaborating and people will be able to read the code you wrote. 
+
+Anyways, any resource be it written, video or talking to helpful people, all falls back on one thing - that you have the vocabulary and understand the very basics. 
