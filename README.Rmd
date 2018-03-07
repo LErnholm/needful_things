@@ -14,6 +14,6 @@ What helped me starting learning R and git is:
   * 3 minute read on "Markdown"[Mastering Markdown] (https://guides.github.com/features/mastering-markdown/)
   * Once past the very beginning, the free online version of the book [R for data science] (http://r4ds.had.co.nz/) is a great help!
 * Immerse yourself, but work at few elements at a time in the beginning. Find the tools you like and learn those. Trying to 'learn it all' is impossible, but reading and watching a lot of tutorials sure helps with getting the concepts. Personally, I use "R-Studio" and picked a suite of packages which fits my needs and show a similar syntax/organization to help me learn. Wickhams "tidyverse" with the addition of "knitr" and the use of markdown seems to cover my immediate needs.
-* Last, but not least, try to adopt a decent style for writing code. It will help you learn by consistency and people will be able to read the code you wrote. A good source for this is the style guide in [Advanced R] (http://adv-r.had.co.nz/Style.html)
+* Last, but not least, try to adopt a decent style for writing code. It will help you learn by consistency and people will be able to read the code you wrote. A good source for this is the style guide in [Advanced R] (http://adv-r.had.co.nz/Style.html) The rest of the book is good too, but more of a later read.
 
 Anyways, any resource be it written, video or talking to helpful people, all falls back on one thing - that you have the vocabulary and understand the very basics. The learning curve might be steep, but making the effort will pay off. 
