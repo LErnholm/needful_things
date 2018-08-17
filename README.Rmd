@@ -8,7 +8,7 @@ What helped me starting learning R and git is:
 * For R-projects - use Git - when you have messed up your code or want to collaborate on it, it is an invaluable tool.
 * Collect useful resources. Nothing is as frustrating as knowing you watched a very good tutorial on youtube but not being able to find it again. Some sources I found useful:
   * Youtube: anything with Hadley Wickham or Jenny Bryan, but for the very start just search 'R tutorial basics'and see what you prefer!
-  * Documentation for R-packages - the "help" is very useful - typing ?? followed by function name or heelp(function_name) will display the documentation.
+  * Documentation for R-packages - the "help" is very useful - typing ?? followed by function name or help(function_name) will display the documentation.
   * The email list [R-bloggers] (https://www.r-bloggers.com/) 
   * The websites ["StackOverflow"] (http://stackoverflow.com/) and ["DataCamp"] (https://www.datacamp.com/)
   * 3 minute read on "Markdown"[Mastering Markdown] (https://guides.github.com/features/mastering-markdown/)
