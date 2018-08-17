@@ -11,7 +11,7 @@ What helped me starting learning R and git is:
   * Documentation for R-packages - the "help" is very useful - typing ?? followed by function name or help(function_name) will display the documentation.
   * The email list [R-bloggers](https://www.r-bloggers.com/) 
   * The websites ["StackOverflow"](http://stackoverflow.com/) and ["DataCamp"](https://www.datacamp.com/)
-  * 3 minute read on "Markdown"[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+  * 3 minute read on Markdown ["Mastering Markdown"](https://guides.github.com/features/mastering-markdown/)
   * Once past the very beginning, the free online version of the book [R for data science](http://r4ds.had.co.nz/) is a great help!
   * The podcast ["Dataframed"](https://www.datacamp.com/community/podcast)
 * Immerse yourself, but work at few elements at a time in the beginning. Find the tools you like and learn those. Trying to 'learn it all' is impossible, but reading and watching a lot of tutorials, and reading other peoples code in places like StackOverflow sure helps with getting the concepts. Personally, I use "R-Studio" and picked a suite of packages which fits my needs and show a similar syntax/organization to help me learn. Wickhams "tidyverse" with the addition of "knitr" and the use of markdown seems to cover my immediate needs.
