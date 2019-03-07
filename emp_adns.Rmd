@@ -9,9 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
-This is just an example. The data used below is openly accessible on [Empres-i](http://empres-i.fao.org/
-empres-i)
-Searched: 
+This is just an example. The data used below is openly accessible on [Empres-i](http://empres-i.fao.org/empres-i) Please note that the site is sometimes down, and might be selective to what browser you use. I ended up useing 'firefox'.
+
 ```{r}
 library(tidyverse)
 library(lubridate)
@@ -25,12 +24,8 @@ EMP <- gsub("\"\"", "\"", EMP)
 EMP2 <- read.csv(text = EMP, header=FALSE, stringsAsFactors = FALSE)
 colnames(EMP2) <- as.character(EMP2[1,])
 EMP2 <- EMP2[-1, -c(21:26)]
-#head(EMP2)
-#names(EMP2)
-#levels(as.factor(EMP2$speciesDescription))
 
 EMP2$reportingDate <- dmy(EMP2$reportingDate)
-
 
 ```
 
@@ -38,11 +33,10 @@ EMP2$reportingDate <- dmy(EMP2$reportingDate)
 asfmap <- EMP2
 
 asfmap$reportingDate <- as.Date(asfmap$reportingDate, format = "%d/%m/%Y")
+
+# subset for date
 #asfmap <- subset(asfmap, reportingDate >= (Sys.Date() - 14)) 
 #asfmap <- filter(asfmap, reportingDate >= "2019-01-01")
-# fix points WE
-# asfmap$longitude <- ifelse(asfmap$long == "WE", paste0("-", asfmap$long), asfmap$long)
-
 
 asfdp_map <- filter(asfmap, speciesDescription == "domestic, swine" )
 asfwb_map <- filter(asfmap, speciesDescription == "wild, wild boar" )
@@ -68,19 +62,14 @@ m <- leaflet()
 m <- addTiles(m, urlTemplate = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
 m <- addCircleMarkers(m, data = asfwb_map, radius = 0.5, popup = popup_wb) 
 m <- addCircleMarkers(m, data = asfdp_map, radius =  1, color = "#cb181d", fillOpacity = 1, popup = popup_dp)
-                      #fillOpacity = 0.5, popup = popup_mid)
-#m <- addCircleMarkers(m, data = asfdp_small, radius = 1 , color = "#ef3b2c", fillColor = "#ef3b2c",
-                      #fillOpacity = 0.5, popup = popup_small)
-#m <- addCircleMarkers(m, data = asfdp_mid, radius = 2 , color = "#cb181d", fillColor = "#cb181d",
-                      #fillOpacity = 0.5, popup = popup_mid)
-#m <- addCircleMarkers(m, data = asfdp_large, radius = 2 , color = "#67000d", fillColor = "#67000d",
-                      #fillOpacity = 0.5, popup = popup_large)
-m <- addScaleBar(m)
-#saveWidget(m, file = "ASF_map_htm.html") 
 
+m <- addScaleBar(m)
 m
 ```
 
+### Pictures
+Here is a static picture of pig density in europe (2010) from Empres-i as comparison
+![Pig desity 2010, Empres-i](GlobalSwineDens.png)
 
 
 Compare empress-i to adns
