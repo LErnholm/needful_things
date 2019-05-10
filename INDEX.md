@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@LErnholm 
-1
-0 0 LErnholm/needful_things
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-needful_things/README.Rmd
-@LErnholm LErnholm Update README.Rmd
-c8bdd06 on 17 Aug 2018
-21 lines (17 sloc)  2.93 KB
-    
 This repository is a tryout to document my learning of R and use of git/github. 
 
 As a veterinarian with no previous experience in writing code, R seemed a bit 'too much' when I started. As things went along I found more and more areas where it was useful to me.  This repository is created for my own documentation, to  keep things, tricks and ideas which took me quite a bit of time to find solutions to and that, in the end, made things work for me. It may not be the most elegant or correct way, I´m sure, but it worked.   
